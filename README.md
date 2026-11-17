@@ -5,7 +5,7 @@
 **ELM327 ile sanal gösterge paneli ve akıllı arıza tespiti**
 Telefonda çalışan web uygulaması + M5StickC Plus için sürüş asistanı yazılımı
 
-[![Uygulamayı aç](https://img.shields.io/badge/Uygulamay%C4%B1%20a%C3%A7-mertguzelmansur.github.io%2Fmgm--kokpit-4cc3ff?style=for-the-badge)](https://mertguzelmansur.github.io/mgm-kokpit/)
+[![Uygulamayı aç](https://img.shields.io/badge/Uygulamay%C4%B1%20a%C3%A7-mertguzelmansur.github.io%2FMGM--COCKPIT-4cc3ff?style=for-the-badge)](https://mertguzelmansur.github.io/MGM-COCKPIT/)
 
 ![Platform](https://img.shields.io/badge/iPhone-Bluefy-black?logo=apple)
 ![Platform](https://img.shields.io/badge/Android-Chrome-3ddc84?logo=android&logoColor=white)
@@ -22,7 +22,7 @@ Telefonda çalışan web uygulaması + M5StickC Plus için sürüş asistanı ya
 
 | Bölüm | Ne | Nerede |
 |---|---|---|
-| **Mobil uygulama** | Telefonda sanal kokpit, akıllı teşhis, yolculuk ve bakım kayıtları. Ek donanım yok, sadece ELM327. | [`index.html`](index.html) · [canlı sürüm](https://mertguzelmansur.github.io/mgm-kokpit/) |
+| **Mobil uygulama** | Telefonda sanal kokpit, akıllı teşhis, yolculuk ve bakım kayıtları. Ek donanım yok, sadece ELM327. | [`index.html`](index.html) · [canlı sürüm](https://mertguzelmansur.github.io/MGM-COCKPIT/) |
 | **M5Stick yazılımı** | M5StickC Plus / Plus2 için Bluetooth ses kumandası + OBD2 sürüş asistanı + robot gözler. | [`m5stick/`](m5stick/) |
 
 > **Not:** BLE ELM327 adaptörü aynı anda tek cihaza bağlanır. Telefon uygulaması ile M5Stick'i aynı adaptörle birlikte kullanacaksanız birini kapatın (M5Stick'te Menü > OBD2 sürüş asistanı > "Sürüş asistanı: Kapalı" yeterli).
@@ -84,7 +84,7 @@ Tek bir HTML dosyası. Kurulum, hesap ya da sunucu yok; tüm veriler telefonun k
 
 **iPhone:** Safari Web Bluetooth desteklemez. App Store'dan ücretsiz **Bluefy** tarayıcısını kurun ve şu adresi açın:
 ```
-https://mertguzelmansur.github.io/mgm-kokpit/
+https://mertguzelmansur.github.io/MGM-COCKPIT/
 ```
 **Android:** Chrome ile aynı adresi açın.
 
@@ -116,7 +116,7 @@ Adaptörünüz yoksa **Demo sürüş** ile tüm ekranları deneyebilirsiniz.
 ## Klasör yapısı
 
 ```
-mgm-kokpit/
+MGM-COCKPIT/
 ├── index.html                  Mobil uygulama (GitHub Pages bu dosyayı yayınlar)
 ├── m5stick/
 │   ├── README.md               Derleme ve kullanım
